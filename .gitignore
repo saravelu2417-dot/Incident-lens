@@ -221,3 +221,15 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Incident Lens workspace
+.venv/
+.verification/
+instance/
+.env
+.env.*
+__pycache__/
+*.sqlite3
+*.sqlite3-*
+node_modules/
+dist/

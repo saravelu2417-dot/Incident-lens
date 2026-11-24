@@ -1,0 +1,169 @@
+timestamp,service,level,message,latency_ms,cpu_percent,memory_percent
+2026-11-10T09:00:00.000Z,billing-db,INFO,Health check passed,48,26,39
+2026-11-10T09:05:00.000Z,worker,INFO,Request completed,67,29,46
+2026-11-10T09:10:00.000Z,inventory,INFO,Request completed,86,32,53
+2026-11-10T09:15:00.000Z,checkout-api,INFO,Request completed,105,35,60
+2026-11-10T09:20:00.000Z,billing-db,CRITICAL,Database connection timeout,1450,45,57
+2026-11-10T09:22:00.000Z,billing-db,CRITICAL,Database connection timeout,1487,45,57
+2026-11-10T09:30:00.000Z,billing-db,INFO,Request completed,162,44,59
+2026-11-10T09:35:00.000Z,worker,INFO,Request completed,181,47,44
+2026-11-10T09:40:00.000Z,inventory,INFO,Health check passed,200,50,51
+2026-11-10T09:45:00.000Z,checkout-api,INFO,Request completed,59,53,58
+2026-11-10T09:50:00.000Z,identity,INFO,Request completed,78,28,43
+2026-11-10T09:55:00.000Z,edge-gateway,INFO,Request completed,97,31,50
+2026-11-11T09:00:00.000Z,worker,INFO,Health check passed,85,33,42
+2026-11-11T09:05:00.000Z,inventory,INFO,Request completed,104,36,49
+2026-11-11T09:10:00.000Z,checkout-api,INFO,Request completed,123,39,56
+2026-11-11T09:15:00.000Z,identity,INFO,Request completed,142,42,41
+2026-11-11T09:20:00.000Z,edge-gateway,INFO,Health check passed,161,45,48
+2026-11-11T09:22:00.000Z,billing-db,INFO,Request completed,180,48,55
+2026-11-11T09:30:00.000Z,worker,INFO,Request completed,199,51,40
+2026-11-11T09:35:00.000Z,inventory,INFO,Request completed,58,26,47
+2026-11-11T09:40:00.000Z,checkout-api,INFO,Health check passed,77,29,54
+2026-11-11T09:45:00.000Z,identity,INFO,Request completed,96,32,39
+2026-11-11T09:50:00.000Z,edge-gateway,INFO,Request completed,115,35,46
+2026-11-11T09:55:00.000Z,billing-db,INFO,Request completed,134,38,53
+2026-11-12T09:00:00.000Z,inventory,INFO,Health check passed,122,40,45
+2026-11-12T09:05:00.000Z,checkout-api,INFO,Request completed,141,43,52
+2026-11-12T09:10:00.000Z,identity,INFO,Request completed,160,46,59
+2026-11-12T09:15:00.000Z,edge-gateway,INFO,Request completed,179,49,44
+2026-11-12T09:20:00.000Z,worker,WARNING,CPU overload detected,550,98,59
+2026-11-12T09:22:00.000Z,worker,WARNING,CPU overload detected,587,98,59
+2026-11-12T09:30:00.000Z,inventory,INFO,Request completed,76,30,43
+2026-11-12T09:35:00.000Z,checkout-api,INFO,Request completed,95,33,50
+2026-11-12T09:40:00.000Z,identity,INFO,Health check passed,114,36,57
+2026-11-12T09:45:00.000Z,edge-gateway,INFO,Request completed,133,39,42
+2026-11-12T09:50:00.000Z,billing-db,INFO,Request completed,152,42,49
+2026-11-12T09:55:00.000Z,worker,INFO,Request completed,171,45,56
+2026-11-13T09:00:00.000Z,checkout-api,INFO,Health check passed,159,47,48
+2026-11-13T09:05:00.000Z,identity,INFO,Request completed,178,50,55
+2026-11-13T09:10:00.000Z,edge-gateway,INFO,Request completed,197,53,40
+2026-11-13T09:15:00.000Z,billing-db,INFO,Request completed,56,28,47
+2026-11-13T09:20:00.000Z,worker,INFO,Health check passed,75,31,54
+2026-11-13T09:22:00.000Z,inventory,INFO,Request completed,94,34,39
+2026-11-13T09:30:00.000Z,checkout-api,INFO,Request completed,113,37,46
+2026-11-13T09:35:00.000Z,identity,INFO,Request completed,132,40,53
+2026-11-13T09:40:00.000Z,edge-gateway,INFO,Health check passed,151,43,60
+2026-11-13T09:45:00.000Z,billing-db,INFO,Request completed,170,46,45
+2026-11-13T09:50:00.000Z,worker,INFO,Request completed,189,49,52
+2026-11-13T09:55:00.000Z,inventory,INFO,Request completed,48,52,59
+2026-11-14T09:00:00.000Z,identity,INFO,Health check passed,196,26,51
+2026-11-14T09:05:00.000Z,edge-gateway,INFO,Request completed,55,29,58
+2026-11-14T09:10:00.000Z,billing-db,INFO,Request completed,74,32,43
+2026-11-14T09:15:00.000Z,worker,INFO,Request completed,93,35,50
+2026-11-14T09:20:00.000Z,inventory,CRITICAL,Out of memory heap exhaustion,600,52,99
+2026-11-14T09:22:00.000Z,inventory,CRITICAL,Out of memory heap exhaustion,637,52,99
+2026-11-14T09:30:00.000Z,identity,INFO,Request completed,150,44,49
+2026-11-14T09:35:00.000Z,edge-gateway,INFO,Request completed,169,47,56
+2026-11-14T09:40:00.000Z,billing-db,INFO,Health check passed,188,50,41
+2026-11-14T09:45:00.000Z,worker,INFO,Request completed,207,53,48
+2026-11-14T09:50:00.000Z,inventory,INFO,Request completed,66,28,55
+2026-11-14T09:55:00.000Z,checkout-api,INFO,Request completed,85,31,40
+2026-11-15T09:00:00.000Z,edge-gateway,INFO,Health check passed,73,33,54
+2026-11-15T09:05:00.000Z,billing-db,INFO,Request completed,92,36,39
+2026-11-15T09:10:00.000Z,worker,INFO,Request completed,111,39,46
+2026-11-15T09:15:00.000Z,inventory,INFO,Request completed,130,42,53
+2026-11-15T09:20:00.000Z,checkout-api,INFO,Health check passed,149,45,60
+2026-11-15T09:22:00.000Z,identity,INFO,Request completed,168,48,45
+2026-11-15T09:30:00.000Z,edge-gateway,INFO,Request completed,187,51,52
+2026-11-15T09:35:00.000Z,billing-db,INFO,Request completed,206,26,59
+2026-11-15T09:40:00.000Z,worker,INFO,Health check passed,65,29,44
+2026-11-15T09:45:00.000Z,inventory,INFO,Request completed,84,32,51
+2026-11-15T09:50:00.000Z,checkout-api,INFO,Request completed,103,35,58
+2026-11-15T09:55:00.000Z,identity,INFO,Request completed,122,38,43
+2026-11-16T09:00:00.000Z,billing-db,INFO,Health check passed,110,40,57
+2026-11-16T09:05:00.000Z,worker,INFO,Request completed,129,43,42
+2026-11-16T09:10:00.000Z,inventory,INFO,Request completed,148,46,49
+2026-11-16T09:15:00.000Z,checkout-api,INFO,Request completed,167,49,56
+2026-11-16T09:20:00.000Z,checkout-api,WARNING,API response delay,1800,66,69
+2026-11-16T09:22:00.000Z,checkout-api,WARNING,API response delay,1837,66,69
+2026-11-16T09:30:00.000Z,billing-db,INFO,Request completed,64,30,55
+2026-11-16T09:35:00.000Z,worker,INFO,Request completed,83,33,40
+2026-11-16T09:40:00.000Z,inventory,INFO,Health check passed,102,36,47
+2026-11-16T09:45:00.000Z,checkout-api,INFO,Request completed,121,39,54
+2026-11-16T09:50:00.000Z,identity,INFO,Request completed,140,42,39
+2026-11-16T09:55:00.000Z,edge-gateway,INFO,Request completed,159,45,46
+2026-11-17T09:00:00.000Z,worker,INFO,Health check passed,147,47,60
+2026-11-17T09:05:00.000Z,inventory,INFO,Request completed,166,50,45
+2026-11-17T09:10:00.000Z,checkout-api,INFO,Request completed,185,53,52
+2026-11-17T09:15:00.000Z,identity,INFO,Request completed,204,28,59
+2026-11-17T09:20:00.000Z,edge-gateway,INFO,Health check passed,63,31,44
+2026-11-17T09:22:00.000Z,billing-db,INFO,Request completed,82,34,51
+2026-11-17T09:30:00.000Z,worker,INFO,Request completed,101,37,58
+2026-11-17T09:35:00.000Z,inventory,INFO,Request completed,120,40,43
+2026-11-17T09:40:00.000Z,checkout-api,INFO,Health check passed,139,43,50
+2026-11-17T09:45:00.000Z,identity,INFO,Request completed,158,46,57
+2026-11-17T09:50:00.000Z,edge-gateway,INFO,Request completed,177,49,42
+2026-11-17T09:55:00.000Z,billing-db,INFO,Request completed,196,52,49
+2026-11-18T09:00:00.000Z,inventory,INFO,Health check passed,184,26,41
+2026-11-18T09:05:00.000Z,checkout-api,INFO,Request completed,203,29,48
+2026-11-18T09:10:00.000Z,identity,INFO,Request completed,62,32,55
+2026-11-18T09:15:00.000Z,edge-gateway,INFO,Request completed,81,35,40
+2026-11-18T09:20:00.000Z,identity,ERROR,Authentication failed invalid credentials,179,37,48
+2026-11-18T09:22:00.000Z,identity,ERROR,Authentication failed invalid credentials,216,37,48
+2026-11-18T09:30:00.000Z,inventory,INFO,Request completed,138,44,39
+2026-11-18T09:35:00.000Z,checkout-api,INFO,Request completed,157,47,46
+2026-11-18T09:40:00.000Z,identity,INFO,Health check passed,176,50,53
+2026-11-18T09:45:00.000Z,edge-gateway,INFO,Request completed,195,53,60
+2026-11-18T09:50:00.000Z,billing-db,INFO,Request completed,54,28,45
+2026-11-18T09:55:00.000Z,worker,INFO,Request completed,73,31,52
+2026-11-19T09:00:00.000Z,checkout-api,INFO,Health check passed,61,33,44
+2026-11-19T09:05:00.000Z,identity,INFO,Request completed,80,36,51
+2026-11-19T09:10:00.000Z,edge-gateway,INFO,Request completed,99,39,58
+2026-11-19T09:15:00.000Z,billing-db,INFO,Request completed,118,42,43
+2026-11-19T09:20:00.000Z,worker,INFO,Health check passed,137,45,50
+2026-11-19T09:22:00.000Z,inventory,INFO,Request completed,156,48,57
+2026-11-19T09:30:00.000Z,checkout-api,INFO,Request completed,175,51,42
+2026-11-19T09:35:00.000Z,identity,INFO,Request completed,194,26,49
+2026-11-19T09:40:00.000Z,edge-gateway,INFO,Health check passed,53,29,56
+2026-11-19T09:45:00.000Z,billing-db,INFO,Request completed,72,32,41
+2026-11-19T09:50:00.000Z,worker,INFO,Request completed,91,35,48
+2026-11-19T09:55:00.000Z,inventory,INFO,Request completed,110,38,55
+2026-11-20T09:00:00.000Z,identity,INFO,Health check passed,98,40,47
+2026-11-20T09:05:00.000Z,edge-gateway,INFO,Request completed,117,43,54
+2026-11-20T09:10:00.000Z,billing-db,INFO,Request completed,136,46,39
+2026-11-20T09:15:00.000Z,worker,INFO,Request completed,155,49,46
+2026-11-20T09:20:00.000Z,worker,CRITICAL,Application crash uncaught exception,900,67,64
+2026-11-20T09:22:00.000Z,worker,CRITICAL,Application crash uncaught exception,937,67,64
+2026-11-20T09:30:00.000Z,identity,INFO,Request completed,52,30,45
+2026-11-20T09:35:00.000Z,edge-gateway,INFO,Request completed,71,33,52
+2026-11-20T09:40:00.000Z,billing-db,INFO,Health check passed,90,36,59
+2026-11-20T09:45:00.000Z,worker,INFO,Request completed,109,39,44
+2026-11-20T09:50:00.000Z,inventory,INFO,Request completed,128,42,51
+2026-11-20T09:55:00.000Z,checkout-api,INFO,Request completed,147,45,58
+2026-11-21T09:00:00.000Z,edge-gateway,INFO,Health check passed,135,47,50
+2026-11-21T09:05:00.000Z,billing-db,INFO,Request completed,154,50,57
+2026-11-21T09:10:00.000Z,worker,INFO,Request completed,173,53,42
+2026-11-21T09:15:00.000Z,inventory,INFO,Request completed,192,28,49
+2026-11-21T09:20:00.000Z,checkout-api,INFO,Health check passed,51,31,56
+2026-11-21T09:22:00.000Z,identity,INFO,Request completed,70,34,41
+2026-11-21T09:30:00.000Z,edge-gateway,INFO,Request completed,89,37,48
+2026-11-21T09:35:00.000Z,billing-db,INFO,Request completed,108,40,55
+2026-11-21T09:40:00.000Z,worker,INFO,Health check passed,127,43,40
+2026-11-21T09:45:00.000Z,inventory,INFO,Request completed,146,46,47
+2026-11-21T09:50:00.000Z,checkout-api,INFO,Request completed,165,49,54
+2026-11-21T09:55:00.000Z,identity,INFO,Request completed,184,52,39
+2026-11-22T09:00:00.000Z,billing-db,INFO,Health check passed,172,26,53
+2026-11-22T09:05:00.000Z,worker,INFO,Request completed,191,29,60
+2026-11-22T09:10:00.000Z,inventory,INFO,Request completed,50,32,45
+2026-11-22T09:15:00.000Z,checkout-api,INFO,Request completed,69,35,52
+2026-11-22T09:20:00.000Z,edge-gateway,ERROR,DNS lookup failed upstream unreachable,1200,42,54
+2026-11-22T09:22:00.000Z,edge-gateway,ERROR,DNS lookup failed upstream unreachable,1237,42,54
+2026-11-22T09:30:00.000Z,billing-db,INFO,Request completed,126,44,51
+2026-11-22T09:35:00.000Z,worker,INFO,Request completed,145,47,58
+2026-11-22T09:40:00.000Z,inventory,INFO,Health check passed,164,50,43
+2026-11-22T09:45:00.000Z,checkout-api,INFO,Request completed,183,53,50
+2026-11-22T09:50:00.000Z,identity,INFO,Request completed,202,28,57
+2026-11-22T09:55:00.000Z,edge-gateway,INFO,Request completed,61,31,42
+2026-11-23T09:00:00.000Z,worker,INFO,Health check passed,49,33,56
+2026-11-23T09:05:00.000Z,inventory,INFO,Request completed,68,36,41
+2026-11-23T09:10:00.000Z,checkout-api,INFO,Request completed,87,39,48
+2026-11-23T09:15:00.000Z,identity,INFO,Request completed,106,42,55
+2026-11-23T09:20:00.000Z,edge-gateway,INFO,Health check passed,125,45,40
+2026-11-23T09:22:00.000Z,billing-db,INFO,Request completed,144,48,47
+2026-11-23T09:30:00.000Z,worker,INFO,Request completed,163,51,54
+2026-11-23T09:35:00.000Z,inventory,INFO,Request completed,182,26,39
+2026-11-23T09:40:00.000Z,checkout-api,INFO,Health check passed,201,29,46
+2026-11-23T09:45:00.000Z,identity,INFO,Request completed,60,32,53
+2026-11-23T09:50:00.000Z,edge-gateway,INFO,Request completed,79,35,60
+2026-11-23T09:55:00.000Z,billing-db,INFO,Request completed,98,38,45

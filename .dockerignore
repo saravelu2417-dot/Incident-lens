@@ -1,0 +1,12 @@
+*
+!Dockerfile
+!requirements.txt
+!backend/
+!backend/**
+!data/
+!data/sample_logs.csv
+!frontend/
+!frontend/**
+**/__pycache__
+frontend/node_modules
+frontend/dist
